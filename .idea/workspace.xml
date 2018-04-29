@@ -1,7 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b81f38e0-05e7-4708-9f63-49d823374ac7" name="Default" comment="" />
+    <list default="true" id="b81f38e0-05e7-4708-9f63-49d823374ac7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README-ja.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/scripts/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/scripts/helpers/tpl/nav.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/scripts/helpers/tpl/pagination.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/scripts/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/scripts/vendor/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/asciidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hubpress/styles/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/README.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/fonts/casper-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/fonts/casper-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/fonts/casper-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/fonts/casper-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/assets/js/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/author.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/default.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/page.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/partials/loop.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/post.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/tag.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Casper/theme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/assets/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/assets/fonts/pictos_custom.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/assets/fonts/pictos_custom.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/assets/fonts/pictos_custom.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/author.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/default.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/page.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/partials/footer.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/partials/loop.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/partials/pagination.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/post.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/tag.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Roon/theme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/collageplus.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/gallery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/jquery.collagePlus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/jquery.fluidbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/jquery.removeWhitespace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/helper/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/assets/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/author.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/default.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/page.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/partials/footer.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/partials/links.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/partials/loop.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/post.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/tag.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Saga/theme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/287b8a740984f33a1131404107e109a071c22034/_css3.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/287b8a740984f33a1131404107e109a071c22034/_support.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/580f2f62856128e0281816356e226471edf3c1b5/screen.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/580f2f62856128e0281816356e226471edf3c1b5/styles.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/d198b245d2c0ce2049e3c578f0ee2ec77063bd5b/_hacks.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_appearance.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_background-clip.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_background-origin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_background-size.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_border-radius.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_box-shadow.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_box-sizing.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_box.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_columns.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_filter.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_font-face.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_hyphenation.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_images.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_inline-block.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_opacity.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_regions.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_shared.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_text-shadow.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_transform.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_transition.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/.sass-cache/fae9fb73a2846d871a0553e753e34696a2f774f2/_user-interface.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/css/foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/css/outdatedBrowser.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/foundation-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/foundation-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/foundation-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/foundation-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/foundation-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-address-book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-align-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-align-justify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-align-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-align-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-anchor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-annotate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrows-compress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrows-expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrows-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-arrows-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-asl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-asterisk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-at-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-background-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-battery-empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-battery-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-battery-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-bitcoin-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-bitcoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-blind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-book-bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-braille.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-burst-new.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-burst-sale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-burst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-checkbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-clipboard-notes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-clipboard-pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-closed-caption.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-comment-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-comment-quotes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-comment-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-contrast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-credit-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-crop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-crown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-css3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-die-five.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-die-four.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-die-one.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-die-six.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-die-three.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-die-two.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-dislike.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-dollar-bill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-dollar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-eject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-elevator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-euro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-fast-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-female-symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-first-aid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-folder-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-folder-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-foot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-foundation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-graph-bar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-graph-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-graph-pie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-graph-trend.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-guide-dog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-hearing-aid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-indent-less.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-indent-more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-laptop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-layout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-lightbulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-like.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-list-bullet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-list-number.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-list-thumbnails.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-loop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-magnifying-glass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-male-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-male-symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-male.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-megaphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-microphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-minus-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-mobile-signal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-monitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-mountains.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-music.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-no-dogs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-no-smoking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-csv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-doc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-export-csv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-export-doc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-export-pdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-export.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-filled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-multiple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-pdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page-search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-page.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-paint-bucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-paperclip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-paw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-paypal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-photo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-play-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-play-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-pound.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-power.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-previous.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-price-tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-pricetag-multiple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-prohibited.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-projection-screen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-puzzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-quote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-record.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-results-demographics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-results.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-rewind-ten.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-rewind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-safety-cone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-sheriff-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-shield.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-shopping-bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-shopping-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-shuffle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-skull.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-500px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-adobe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-amazon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-bing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-blogger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-delicious.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-designer-news.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-deviant-art.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-digg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-drive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-dropbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-evernote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-flickr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-forrst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-foursquare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-game-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-google-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-hacker-news.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-hi5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-joomla.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-lastfm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-myspace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-orkut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-path.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-picasa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-rdio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-reddit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-skillshare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-skype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-smashing-mag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-snapchat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-spotify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-squidoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-stack-overflow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-steam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-stumbleupon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-treehouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-windows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-xbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-yahoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-yelp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-zerply.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-social-zurb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-sound.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-strikethrough.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-subscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-superscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-tablet-landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-tablet-portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-target-two.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-target.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-telephone-accessible.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-telephone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-text-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-thumbnails.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torso-business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torso-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torso.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torsos-all-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torsos-all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torsos-female-male.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torsos-male-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-torsos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-trees.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-trophy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-underline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-universal-access.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-unlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-upload-cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-usb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-volume-none.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-volume-strike.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-volume.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-web.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-wheelchair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-widget.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-wrench.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-x-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-yen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-zoom-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/foundation-icons/svgs/fi-zoom-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/fonts/icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/images/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/images/main-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/built.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.abide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.clearing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.equalizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.interchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.joyride.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.magellan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.orbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/foundation.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/foundation/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/min/built.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/outdatedBrowser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/overlay/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/overlay/demo1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/overlay/snap.svg-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/vendor/fastclick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/vendor/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/vendor/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/vendor/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/vendor/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/js/vendor/smoothscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/scss/screen.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/assets/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/default.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/page.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/partials/pagination.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/post.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/tag.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ichi/theme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/media-queries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/uno.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/.fontcustom-data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/images/background-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/components/_post-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/media-queries.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/sections/_post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/uno.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/scss/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/default.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/error.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/page.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/partials/comments.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/partials/footer.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/partials/list-posts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/partials/pagination.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/partials/side-panel.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/partials/social.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/post.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/tag.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/theme.json" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,12 +511,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
-      <find>wrapban</find>
       <find>panel-test</find>
       <find>wrapper</find>
       <find>wrap-banner</find>
@@ -47,6 +553,8 @@
       <find>aspect-holder-full</find>
       <find>320</find>
       <find>320px</find>
+      <find>serverna</find>
+      <find>local.bedbathandbeyond</find>
     </findStrings>
     <replaceStrings>
       <replace>hero</replace>
@@ -57,6 +565,7 @@
       <replace>max-width</replace>
       <replace>https://antonvoltchok.github.io/responsive-bbb/img/</replace>
       <replace>100%</replace>
+      <replace>local.bedbathandbeyond.ca</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -65,8 +574,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/bbb.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -77,12 +586,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/themes/Casper/package.json" />
-      <path value="$PROJECT_DIR$/themes/Roon/package.json" />
-      <path value="$PROJECT_DIR$/themes/Saga/package.json" />
-      <path value="$PROJECT_DIR$/themes/ichi/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -96,7 +600,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +611,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,25 +648,27 @@
       <workItem from="1524769227695" duration="12193000" />
       <workItem from="1524844744869" duration="2973000" />
       <workItem from="1524856121745" duration="985000" />
+      <workItem from="1524857532092" duration="691000" />
+      <workItem from="1524859031676" duration="660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51858000" />
+    <option name="totallyTimeSpent" value="53209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13751763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13751763" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32860824" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3170103" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32860824" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -181,6 +687,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2556">
           <caret line="142" column="8" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
         </state>
@@ -193,13 +706,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bbb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5832">
-          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bbb.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1926">
@@ -207,30 +714,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bbb.css">
+    <entry file="file://$PROJECT_DIR$/css/bbb.css" />
+    <entry file="file://$PROJECT_DIR$/css/bbb.css" />
+    <entry file="file:///usr/local/etc/nginx/servers/local.bedbathandbeyond">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4158">
-          <caret line="231" column="22" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+        <state relative-caret-position="162">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bbb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="882">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
         </state>
       </provider>
     </entry>

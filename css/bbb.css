@@ -1,0 +1,419 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/*  RATIOS  */
+/* ======== */
+
+.hero-ratio {
+    padding-top: calc(477 / 848 * 100%);
+}
+
+.hero-short-ratio {
+    padding-top: calc(300 / 848 * 100%);
+}
+
+.carousel-ratio {
+    padding-top: calc(255 / 502 * 100%);
+}
+
+/* @TODO make this ratio the same thing as the hero ratio*/
+.carousel-bad-ex-ratio {
+    padding-top: calc(440 / 1280 * 100%);
+}
+
+.full-center-ratio {
+    padding-top: calc(316 / 1280 * 100%);
+}
+
+.aspect-holder {
+    max-width: 66.25%;
+    width: 100%;
+}
+
+.aspect-holder-full {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* =============================== */
+/*  BACKGROUNDS IMAGES AND TIMING  */
+/* =============================== */
+
+.bg-hero {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-ellen.png) no-repeat center;
+    background-size: contain;
+}
+
+.bg-hero-short {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-desert.png) no-repeat center;;
+    background-size: contain;
+}
+
+.bg-carousel-good-ex {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-bread.png) no-repeat center;;
+    background-size: contain;
+}
+
+.bg-carousel-bad-ex {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-blender2.png) no-repeat center;;
+    background-size: contain;
+}
+
+.bg-full-centered {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-bake-calphalon.png) no-repeat center;;
+    background-size: contain;
+}
+
+.bg-full-mobile {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/full-mobile-320.png) no-repeat center;;
+    background-size: contain;
+}
+
+
+/* ========= */
+/*  BUTTONS  */
+/* ========= */
+
+.button-ghost {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .85rem 1rem;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.button-secondary {
+    color: #003BDE;
+    border: 1px solid #003BDE;
+    padding: .85rem 1rem;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+/* =============== */
+/*  PANEL RELATED  */
+/* =============== */
+
+.panel-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 33.75%;
+}
+
+.panel-hero {
+    background-color: #1D284F;
+    min-width: 33.75%;
+}
+
+.panel-only-logo {
+    background-color: #F2F1F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-carousel {
+    width: 400px;
+}
+
+.banner-logo {
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #D0021B;
+}
+
+.carousel-bg {
+    position: relative;
+}
+
+.bg-carousel-panel {
+    background: transparent;
+}
+
+.gradient-light-grays {
+    background-image: linear-gradient(to top, #eaf5fc 0%, #f3f8ff 100%);
+}
+
+.spacer {
+    width: 2rem;
+    height: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    margin: 0 2%;
+    max-width: 1280px;
+}
+
+.wrap-banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 35px auto;
+}
+
+.panel-heading {
+    font-size: 28px;
+    font-weight: 400;
+    max-width: 380px;
+}
+
+.panel-text {
+    font-size: 16px;
+    font-weight: 300;
+    padding: .25rem 1.75rem;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.logo-responsive {
+    max-width: 200px;
+    transition: .12s all ease-in
+}
+
+.panel-breaker-mid {
+    height: 40px;
+}
+
+.info-text-heading {
+    font-weight: 800;
+    color: #3f3f3f;
+    font-size: 27px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.info-text {
+    font-weight: 300;
+    color: #111111;
+    font-size: 14px;
+    text-align: left;
+}
+
+.info-block {
+    margin: 35px auto;
+    padding: 25px 0;
+    text-align: left;
+}
+
+
+.full-desktop-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.full-mobile-img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.inline-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.panel-carousel-bad-ver  {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    min-width: 435px;
+}
+
+
+.full-content {
+    display: none;
+}
+
+/* ================== */
+/*  960 - BREAKPOINT  */
+/* ================== */
+
+@media screen and (max-width: 960px) {
+
+    .panel-carousel-bad-ver {
+        min-width: 330px;
+        max-width: 330px;
+    }
+
+    .logo-responsive {
+        max-width: 125px;
+    }
+
+    .panel-breaker-mid {
+        height: 20px;
+    }
+
+    .panel-text {
+        font-size: 14px;
+    }
+
+
+    .button-ghost {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: .5rem .8rem .6rem;
+        border-radius: 3px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: .8rem;
+    }
+
+    .button-secondary {
+        color: #003BDE;
+        border: 1px solid #003BDE;
+        padding: .5rem .8rem .6rem;
+        border-radius: 3px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: .8rem;
+    }
+}
+
+
+
+
+
+/* ================== */
+/*  720 - BREAKPOINT  */
+/* ================== */
+
+@media screen and (max-width: 720px) {
+
+
+    .bg-carousel-bad-ex {
+        background-size: auto 100%;
+        background-position: right;
+        height: 78px;
+    }
+
+    .bg-hero-short:hover {
+        background: yellow;
+        transition: .12s all ease-in;
+        background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-desert.png) no-repeat center;
+        padding-top: calc(300 / 848 * 107%);
+        background-size: cover;
+    }
+
+    .panel-breaker-mid {
+        height: 10px;
+    }
+
+    .logo-responsive {
+        max-width: 100px;
+    }
+
+
+    .wrap-banner {
+        flex-direction: column-reverse;
+    }
+
+    .panel-carousel-bad-ver  {
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        min-width: 100%;
+    }
+
+
+    .aspect-holder {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .panel-carousel .panel-banner .panel-hero .panel-only-logo {
+        background-color: #efecff;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .panel-carousel {
+        width: 100%;
+        padding: 10px 0;
+        background: #ffffff;
+    }
+
+    .bad-carousel-patch {
+        background-position: top;
+    }
+
+    .panel-only-logo {
+        min-height: 170px;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .panel-text {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .full-desktop-img {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .full-mobile-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .full-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-text-heading {
+        font-weight: 800;
+        color: #3f3f3f;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .info-text {
+        font-weight: 300;
+        color: #111111;
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+
+
+/*UTILS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
