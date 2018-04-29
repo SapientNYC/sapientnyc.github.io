@@ -2,9 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b81f38e0-05e7-4708-9f63-49d823374ac7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bbb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/TOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/extend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-bake-calphalon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-blender.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-blender2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-bread.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-desert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-edit-bread.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-edit-desert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-edit-ellen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-ellen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-full-1280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-mixers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/full-mobile-320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-edit-kitchenaid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-ellen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-kitchenaid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/three-dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/trip-dot.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tile-wide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README-ja.adoc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hubpress/config.json" beforeDir="false" />
@@ -461,7 +498,7 @@
       <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/media-queries.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/reset.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/uno.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uno/assets/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/img/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/.fontcustom-data" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/uno/assets/fonts/foundation-icons/foundation-icons.eot" beforeDir="false" />
@@ -512,13 +549,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="144">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bbb.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/bbb.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -588,9 +630,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -606,6 +649,11 @@
             <path>
               <item name="sapientnyc.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sapientnyc.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sapientnyc.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sapientnyc.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -649,24 +697,24 @@
       <workItem from="1524844744869" duration="2973000" />
       <workItem from="1524856121745" duration="985000" />
       <workItem from="1524857532092" duration="691000" />
-      <workItem from="1524859031676" duration="660000" />
+      <workItem from="1524859031676" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53209000" />
+    <option name="totallyTimeSpent" value="53642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="720" y="23" width="720" height="873" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13751763" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11891118" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32860824" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32860824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17912371" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -715,7 +763,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bbb.css" />
-    <entry file="file://$PROJECT_DIR$/css/bbb.css" />
     <entry file="file:///usr/local/etc/nginx/servers/local.bedbathandbeyond">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -725,10 +772,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bbb.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
