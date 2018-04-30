@@ -181,11 +181,9 @@ body {
 .panel-text {
     font-size: 16px;
     font-weight: 300;
-    padding: .25rem 1.75rem;
-    max-width: 70%;
     margin: 0 auto;
-    text-align: centlefter;
-
+    text-align: left;
+    width: 70%;
 }
 
 .logo-responsive {
@@ -303,18 +301,10 @@ body {
 @media screen and (max-width: 780px) {
 
 
-    .bg-carousel-bad-ex {
+    .bg-carousel{
         background-size: auto 100%;
         background-position: right;
         height: 78px;
-    }
-
-    .bg-hero-slim:hover {
-        background: yellow;
-        transition: .12s all ease-in;
-        background: url(https://sapientnyc.github.io/img/bg-edit-desert.png) no-repeat center;
-        padding-top: calc(300 / 848 * 107%);
-        background-size: cover;
     }
 
     .panel-breaker-mid {
@@ -435,6 +425,10 @@ body {
 
 
 /*UTILS*/
+
+.relative {
+    position: relative;
+}
 
 
 
