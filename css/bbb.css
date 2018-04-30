@@ -42,33 +42,35 @@ body {
 /*  BACKGROUNDS IMAGES AND TIMING  */
 /* =============================== */
 
+/*https://sapientnyc.github.io/img/bg-carousel.png*/
+
 .bg-carousel {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-carousel.png) no-repeat center;
+    background: url(https://sapientnyc.github.io/img/bg-carousel.png) no-repeat center;
     background-size: contain;
 }
 
 .bg-carousel-alt-a  {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-carousel-alt-a.png) no-repeat center;
+    background: url(https://sapientnyc.github.io/img/bg-carousel-alt-a.png) no-repeat center;
     background-size: contain;
 }
 
 .bg-carousel-alt-b  {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-carousel-alt-a.png) no-repeat center;
+    background: url(https://sapientnyc.github.io/img/bg-carousel-alt-a.png) no-repeat center;
     background-size: contain;
 }
 
 .bg-hero-brand {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-hero-brand.png) no-repeat center;
+    background: url(https://sapientnyc.github.io/img/bg-hero-brand.png) no-repeat center;
     background-size: contain;
 }
 
 .bg-hero-brand-slim {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-hero-brand-slim.png) no-repeat center;;
+    background: url(https://sapientnyc.github.io/img/bg-hero-brand-slim.png) no-repeat center;;
     background-size: contain;
 }
 
 .bg-merchandise {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-merch.png) no-repeat center;;
+    background: url(https://sapientnyc.github.io/img/bg-merch.png) no-repeat center;;
     background-size: contain;
 }
 
@@ -302,7 +304,7 @@ body {
     .bg-hero-slim:hover {
         background: yellow;
         transition: .12s all ease-in;
-        background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-desert.png) no-repeat center;
+        background: url(https://sapientnyc.github.io/img/bg-edit-desert.png) no-repeat center;
         padding-top: calc(300 / 848 * 107%);
         background-size: cover;
     }
