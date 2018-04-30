@@ -7,11 +7,15 @@ body {
 
 
 .ratio-carousel {
-    padding-top: calc(440 / 1280 * 100%);
+    padding-top: calc(440 / 768 * 100%);
 }
 
 .ratio-carousel-alt-a {
-    padding-top: calc(440 / 1280 * 100%);
+    padding-top: calc(440 / 779 * 100%);
+}
+
+.ratio-carousel-alt-b {
+    height: 100%;
 }
 
 /*.ratio-carousel-alt-b is same as carousel*/
@@ -29,13 +33,11 @@ body {
 }
 
 .aspect-holder {
-    max-width: 66.25%;
-    width: 100%;
+    width: 60%;
 }
 
 .aspect-holder-full {
-    max-width: 100%;
-    width: 100%;
+    width: 60%;
 }
 
 /* =============================== */
@@ -44,7 +46,7 @@ body {
 
 /*https://sapientnyc.github.io/img/bg-carousel.png*/
 
-.bg-carousel {
+.bg-full-carousel {
     background: url(https://sapientnyc.github.io/img/bg-carousel.png) no-repeat center;
     background-size: contain;
 }
@@ -56,7 +58,7 @@ body {
 
 .bg-carousel-alt-b  {
     background: url(https://sapientnyc.github.io/img/bg-carousel-alt-a.png) no-repeat center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .bg-hero-brand {
@@ -89,10 +91,14 @@ body {
 
 .button-secondary {
     color: #003BDE;
+    display: inline-block;
     border: 1px solid #003BDE;
     padding: .85rem 1rem;
     border-radius: 3px;
+}
+.button-wrapper {
     margin-top: 25px;
+    width: 70%;
 }
 
 /* =============== */
@@ -104,7 +110,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 33.75%;
+    width: 40%;
+}
+
+.panel-alt-b {
+    padding: 5% 0;
 }
 
 .panel-hero {
@@ -117,10 +127,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.panel-carousel {
-    width: 400px;
 }
 
 .banner-logo {
@@ -154,7 +160,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 3rem 0;
-    margin: 0 2%;
+    margin: 0 auto;
     max-width: 1280px;
 }
 
@@ -169,6 +175,7 @@ body {
     font-size: 28px;
     font-weight: 400;
     max-width: 380px;
+    width: 70%;
 }
 
 .panel-text {
@@ -177,7 +184,7 @@ body {
     padding: .25rem 1.75rem;
     max-width: 70%;
     margin: 0 auto;
-    text-align: center;
+    text-align: centlefter;
 
 }
 
@@ -231,10 +238,7 @@ body {
 }
 
 .panel-carousel-full  {
-    position: absolute;
-    z-index: 2;
-    height: 100%;
-    min-width: 435px;
+    width: 40%;
 }
 
 
@@ -260,6 +264,10 @@ body {
 
     .panel-text {
         font-size: 14px;
+    }
+
+    .panel-heading {
+        font-size: 24px;
     }
 
 
@@ -320,6 +328,11 @@ body {
 
     .wrap-banner {
         flex-direction: column-reverse;
+        background: none;
+    }
+
+    .panel-banner {
+        width: 100%;
     }
 
     .panel-carousel-full  {
@@ -329,10 +342,29 @@ body {
         min-width: 100%;
     }
 
+    .panel-heading,
+    .panel-text {
+        text-align: center;
+    }
 
-    .aspect-holder {
+    .button-wrapper {
+        width:auto;
+    }
+
+
+    .aspect-holder,
+    .aspect-holder-full {
         max-width: 100%;
         width: 100%;
+
+        background-position: right top;
+        background-size: 167% auto;
+        background-image: url(https://sapientnyc.github.io/img/bg-carousel.png);
+        background-repeat: no-repeat;
+    }
+
+    .ratio-carousel-alt-b {
+        padding-top: calc(440 / 779 * 100%);
     }
 
     .panel-carousel .panel-banner .panel-hero .panel-only-logo {
@@ -356,7 +388,7 @@ body {
     }
 
     .wrapper {
-        max-width: 100%;
+        max-width: 90%;
         margin: 0 auto;
     }
 
