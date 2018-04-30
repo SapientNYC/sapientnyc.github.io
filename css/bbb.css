@@ -96,8 +96,13 @@ body {
     padding: .85rem 1rem;
     border-radius: 3px;
 }
+
+.merch-button-wrapper,
 .button-wrapper {
     margin-top: 25px;
+}
+
+.button-wrapper {
     width: 70%;
 }
 
@@ -171,17 +176,48 @@ body {
     margin: 35px auto;
 }
 
+.wrap-merch-banner {
+    margin: 35px auto;
+    position: relative;
+    width: 100%;
+}
+
+.merch-panel-heading,
 .panel-heading {
     font-size: 28px;
     font-weight: 400;
+}
+
+.panel-heading {
     max-width: 380px;
     width: 70%;
 }
 
+.merch-panel-text,
 .panel-text {
     font-size: 16px;
     font-weight: 300;
     margin: 0 auto;
+}
+
+
+.merch-full-content {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.merch-panel-text,
+.merch-panel-heading,
+.merch-button-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.panel-text {
     text-align: left;
     width: 70%;
 }
@@ -399,12 +435,14 @@ body {
         display: block;
     }
 
-    .full-content {
+    .full-content,
+    .merch-full-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
 
     .info-text-heading {
         font-weight: 800;
