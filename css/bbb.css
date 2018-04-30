@@ -444,20 +444,21 @@ body {
     }
 
     .merch-full-content {
-        position: static;
-        transform: none;
+        position: absolute;
         margin: 0 auto;
         width: 50%;
+        transform: translate(-50%, 45%);
     }
 
     .bg-merchandise {
-        background-size: auto 100%;
+        background-size: auto 121%;
+        background-position: right top;
+            height: 200px;
     }
 
     .ratio-merchandising {
         display: none;
     }
-
 
     .info-text-heading {
         font-weight: 800;
