@@ -5,24 +5,26 @@ body {
 /*  RATIOS  */
 /* ======== */
 
-.hero-ratio {
-    padding-top: calc(477 / 848 * 100%);
-}
 
-.hero-short-ratio {
-    padding-top: calc(300 / 848 * 100%);
-}
-
-.carousel-ratio {
-    padding-top: calc(255 / 502 * 100%);
-}
-
-/* @TODO make this ratio the same thing as the hero ratio*/
-.carousel-bad-ex-ratio {
+.ratio-carousel {
     padding-top: calc(440 / 1280 * 100%);
 }
 
-.full-center-ratio {
+.ratio-carousel-alt-a {
+    padding-top: calc(440 / 1280 * 100%);
+}
+
+/*.ratio-carousel-alt-b is same as carousel*/
+
+.ratio-hero-brand {
+    padding-top: calc(440 / 780 * 100%);
+}
+
+.ratio-hero-brand-slim {
+    padding-top: calc(300 / 848 * 100%);
+}
+
+.ratio-merchandising {
     padding-top: calc(316 / 1280 * 100%);
 }
 
@@ -40,33 +42,33 @@ body {
 /*  BACKGROUNDS IMAGES AND TIMING  */
 /* =============================== */
 
-.bg-hero {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-ellen.png) no-repeat center;
+.bg-carousel {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-carousel.png) no-repeat center;
     background-size: contain;
 }
 
-.bg-hero-short {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-desert.png) no-repeat center;;
+.bg-carousel-alt-a  {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-carousel-alt-a.png) no-repeat center;
     background-size: contain;
 }
 
-.bg-carousel-good-ex {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-bread.png) no-repeat center;;
+.bg-carousel-alt-b  {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-carousel-alt-a.png) no-repeat center;
     background-size: contain;
 }
 
-.bg-carousel-bad-ex {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-blender2.png) no-repeat center;;
+.bg-hero-brand {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-hero-brand.png) no-repeat center;
     background-size: contain;
 }
 
-.bg-full-centered {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-bake-calphalon.png) no-repeat center;;
+.bg-hero-brand-slim {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-hero-brand-slim.png) no-repeat center;;
     background-size: contain;
 }
 
-.bg-full-mobile {
-    background: url(https://antonvoltchok.github.io/responsive-bbb/img/full-mobile-320.png) no-repeat center;;
+.bg-merchandise {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-merch.png) no-repeat center;;
     background-size: contain;
 }
 
@@ -226,9 +228,7 @@ body {
     align-items: center;
 }
 
-
-
-.panel-carousel-bad-ver  {
+.panel-carousel-full  {
     position: absolute;
     z-index: 2;
     height: 100%;
@@ -236,9 +236,6 @@ body {
 }
 
 
-.full-content {
-    display: none;
-}
 
 /* ================== */
 /*  960 - BREAKPOINT  */
@@ -246,9 +243,9 @@ body {
 
 @media screen and (max-width: 960px) {
 
-    .panel-carousel-bad-ver {
-        min-width: 330px;
-        max-width: 330px;
+    .panel-carousel-full {
+        min-width: 40%;
+        max-width: 40%;
     }
 
     .logo-responsive {
@@ -293,7 +290,7 @@ body {
 /*  720 - BREAKPOINT  */
 /* ================== */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
 
 
     .bg-carousel-bad-ex {
@@ -302,7 +299,7 @@ body {
         height: 78px;
     }
 
-    .bg-hero-short:hover {
+    .bg-hero-slim:hover {
         background: yellow;
         transition: .12s all ease-in;
         background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-edit-desert.png) no-repeat center;
@@ -323,7 +320,7 @@ body {
         flex-direction: column-reverse;
     }
 
-    .panel-carousel-bad-ver  {
+    .panel-carousel-full  {
         position: relative;
         z-index: 2;
         height: 100%;
