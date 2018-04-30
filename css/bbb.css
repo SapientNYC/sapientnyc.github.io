@@ -5,7 +5,6 @@ body {
 /*  RATIOS  */
 /* ======== */
 
-
 .ratio-carousel {
     padding-top: calc(440 / 768 * 100%);
 }
@@ -51,12 +50,12 @@ body {
     background-size: contain;
 }
 
-.bg-carousel-alt-a  {
+.bg-carousel-alt-a {
     background: url(https://sapientnyc.github.io/img/bg-carousel-alt-a.png) no-repeat center;
     background-size: contain;
 }
 
-.bg-carousel-alt-b  {
+.bg-carousel-alt-b {
     background: url(https://sapientnyc.github.io/img/bg-carousel-alt-a.png) no-repeat center;
     background-size: cover;
 }
@@ -75,7 +74,6 @@ body {
     background: url(https://sapientnyc.github.io/img/bg-merch.png) no-repeat center;;
     background-size: contain;
 }
-
 
 /* ========= */
 /*  BUTTONS  */
@@ -200,7 +198,6 @@ body {
     margin: 0 auto;
 }
 
-
 .merch-full-content {
     width: 30%;
     position: absolute;
@@ -211,7 +208,7 @@ body {
 
 .merch-panel-text,
 .merch-panel-heading,
-.merch-button-wrapper{
+.merch-button-wrapper {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -241,9 +238,10 @@ body {
 
 .info-text {
     font-weight: 300;
-    color: #111111;
-    font-size: 14px;
-    text-align: left;
+    color: #999;
+    font-size: 17px;
+    padding-top: 12px;
+    text-align: center;
 }
 
 .info-block {
@@ -251,7 +249,6 @@ body {
     padding: 25px 0;
     text-align: left;
 }
-
 
 .full-desktop-img {
     width: 100%;
@@ -271,11 +268,15 @@ body {
     align-items: center;
 }
 
-.panel-carousel-full  {
+.panel-carousel-full {
     width: 40%;
 }
 
 
+.merch-spacer {
+    height: 225px;
+    display: none;
+}
 
 /* ================== */
 /*  960 - BREAKPOINT  */
@@ -304,7 +305,6 @@ body {
         font-size: 24px;
     }
 
-
     .button-ghost {
         color: #fff;
         border: 1px solid #fff;
@@ -324,20 +324,37 @@ body {
         margin-bottom: 15px;
         font-size: .8rem;
     }
+
+    .info-text {
+        font-weight: 300;
+        color: #999;
+        font-size: 15px;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    .bg-merch-alt-1 {
+        background-size: contain;
+        height: 140px;
+    }
+
+    .merch-content-full-alt {
+        margin-top: -60px;
+    }
+
+    .merch-spacer {
+        height: 225px;
+        display: none;
+    }
 }
 
-
-
-
-
 /* ================== */
-/*  720 - BREAKPOINT  */
+/*  820 - BREAKPOINT  */
 /* ================== */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 820px) {
 
-
-    .bg-carousel{
+    .bg-carousel {
         background-size: auto 100%;
         background-position: right;
         height: 78px;
@@ -351,7 +368,6 @@ body {
         max-width: 100px;
     }
 
-
     .wrap-banner {
         flex-direction: column-reverse;
         background: none;
@@ -361,7 +377,7 @@ body {
         width: 100%;
     }
 
-    .panel-carousel-full  {
+    .panel-carousel-full {
         position: relative;
         z-index: 2;
         height: 100%;
@@ -374,9 +390,8 @@ body {
     }
 
     .button-wrapper {
-        width:auto;
+        width: auto;
     }
-
 
     .aspect-holder,
     .aspect-holder-full {
@@ -453,7 +468,7 @@ body {
     .bg-merchandise {
         background-size: auto 121%;
         background-position: right top;
-            height: 200px;
+        height: 200px;
     }
 
     .ratio-merchandising {
@@ -470,13 +485,22 @@ body {
 
     .info-text {
         font-weight: 300;
-        color: #111111;
-        font-size: 14px;
+        color: #999;
+        font-size: 15px;
+        padding-top: 8px;
         text-align: center;
     }
 
-}
+    .bg-merch-alt-1 {
+        background-size: contain;
+        height: 140px;
+    }
 
+    .merch-content-full-alt {
+        margin-top: -60px;
+    }
+
+}
 
 /*UTILS*/
 
@@ -484,13 +508,16 @@ body {
     position: relative;
 }
 
-
 /*pw */
 
 body {
-    display: none;
+    /*display: none;*/
 }
 
+.merch-spacer {
+    height: 225px;
+    display: block;
+}
 
 
 
