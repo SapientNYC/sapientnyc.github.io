@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b81f38e0-05e7-4708-9f63-49d823374ac7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/bbb.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bbb.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="282">
-                  <caret line="125" column="18" lean-forward="true" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+                <state relative-caret-position="335">
+                  <caret line="102" column="10" lean-forward="true" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#div#18;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -48,8 +47,8 @@
           <file leaf-file-name="bbb.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/bbb.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="436" column="23" selection-start-line="436" selection-start-column="23" selection-end-line="436" selection-end-column="23" />
+                <state relative-caret-position="-2249">
+                  <caret line="225" column="17" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -60,11 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bg-full-cent</find>
-      <find>panel-carousel-bad-ver</find>
-      <find>panel-carousel</find>
-      <find>-bad-ver</find>
-      <find>-full</find>
       <find>hero-box-</find>
       <find>hero- box</find>
       <find>panel-carousel-full</find>
@@ -90,6 +84,11 @@
       <find>merch-full-content</find>
       <find>merch-panel-text</find>
       <find>panel-text</find>
+      <find>m</find>
+      <find>max-width</find>
+      <find>logo</find>
+      <find>banner-logo</find>
+      <find>logo-respon</find>
     </findStrings>
     <replaceStrings>
       <replace>hero</replace>
@@ -321,7 +320,7 @@
       <workItem from="1524844744869" duration="2973000" />
       <workItem from="1524856121745" duration="985000" />
       <workItem from="1524857532092" duration="691000" />
-      <workItem from="1524859031676" duration="19305000" />
+      <workItem from="1524859031676" duration="22257000" />
     </task>
     <task id="LOCAL-00001" summary="refactored most of html and css naming, changed to new bg file names / naming convention, added to gitignore, removed secondary info lines, changed order of all hero blocks created and uploaded image repo AI file for future changes, renamed all backgrounds">
       <created>1525056097418</created>
@@ -369,7 +368,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71854000" />
+    <option name="totallyTimeSpent" value="74806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -383,7 +382,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32860824" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.077319585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23453608" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="125" column="18" lean-forward="true" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+        <state relative-caret-position="335">
+          <caret line="102" column="10" lean-forward="true" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#18;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -503,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bbb.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="436" column="23" selection-start-line="436" selection-start-column="23" selection-end-line="436" selection-end-column="23" />
+        <state relative-caret-position="-2249">
+          <caret line="225" column="17" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
         </state>
       </provider>
     </entry>
