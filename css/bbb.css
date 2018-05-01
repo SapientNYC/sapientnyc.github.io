@@ -333,18 +333,13 @@ body {
         text-align: center;
     }
 
-    .bg-merch-alt-1 {
-        background-size: contain;
-        height: 140px;
-    }
-
-    .merch-content-full-alt {
-        margin-top: -60px;
-    }
-
     .merch-spacer {
         height: 225px;
         display: none;
+    }
+
+    .merch-panel-text {
+        max-width: 100%;
     }
 }
 
@@ -429,13 +424,17 @@ body {
     }
 
     .wrapper {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
-    .panel-text {
+    .panel-text , .merch-panel-text{
         font-size: 14px;
         padding-bottom: 20px;
+    }
+
+    .merch-panel-text {
+        max-width: 50%;
     }
 
     .full-desktop-img {
@@ -459,15 +458,15 @@ body {
     }
 
     .merch-full-content {
-        position: absolute;
+        position: relative;
         margin: 0 auto;
-        width: 50%;
+        width: 100%;
         transform: translate(-50%, 45%);
     }
 
     .bg-merchandise {
-        background-size: auto 121%;
-        background-position: right top;
+        background-size: contain;
+        background-position: bottom;
         height: 200px;
     }
 
@@ -491,15 +490,6 @@ body {
         text-align: center;
     }
 
-    .bg-merch-alt-1 {
-        background-size: contain;
-        height: 140px;
-    }
-
-    .merch-content-full-alt {
-        margin-top: -60px;
-    }
-
 }
 
 /*UTILS*/
@@ -520,8 +510,9 @@ body {
 }
 
 
-
-
+.center-margin {
+    margin: 0 auto;
+}
 
 
 
